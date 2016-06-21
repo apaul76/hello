@@ -29,6 +29,10 @@
 
 				$p= randomname($name);    /*calling function randomname() with $name parameter*/
 			}
+			else
+			{
+				$p= "empty!! put input in the above box & submit";
+			}
 			function randomname($name)    /*function randomname() with $name parameter*/
 			{
 
